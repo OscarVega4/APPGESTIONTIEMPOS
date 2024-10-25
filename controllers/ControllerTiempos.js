@@ -1,3 +1,4 @@
+import { proyectos } from "../Models/ModelProyectos.js"
 import { Tiempos } from "../Models/ModelTiempos.js"
 
 
@@ -9,7 +10,7 @@ export function registrarTiempos(){
     let newRegistro = {
         fecha: fecha,
         tiempo: tiempo,
-        proyecto: proyecto
+        proyecto: proyecto,
         
     } 
     Tiempos.push(newRegistro)
